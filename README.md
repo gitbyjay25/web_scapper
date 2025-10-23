@@ -10,20 +10,24 @@ This repository contains scripts to collect and scrape rental property data for 
 
 The project automates the collection of property URLs and scraping of property details to create a structured dataset for rental flats in Pune. It consists of two main scripts:
 
-1. **`url_collector.py`**  
-   - Collects property URLs from MagicBricks Pune rental listings.  
-   - Saves URLs to  a text file.
+Datapoints Extracted
 
-2. **`scraper.py`**  
-   - Scrapes details from each property URL, including:  
-     - Property ID, Rental Value, Security Deposit  
-     - Address, Landmarks, Floor, Area (sqft)  
-     - Lift, Furnishing, Flooring, Age of Construction  
-     - Property Description  
-     - Agent Name & Contact  
-   - Handles dynamic content like “View all details” and “Read More”.  
-   - Saves the scraped data into a csv required CSV fie
-
+Name and ID
+Description
+URL
+Price
+Location Details
+City Name
+Address
+Latitude if available
+Longitude if available
+Flat Details
+Number of Rooms
+Furnishing Status
+Floor No
+Agent Details
+Agent Name
+Masked Mobile Number
 ---
 How To Use :
 
